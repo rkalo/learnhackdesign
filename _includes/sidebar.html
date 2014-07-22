@@ -1,0 +1,12 @@
+ <nav class="previous-posts grid-3">
+    <h2>My Lessons</h2>
+    <ul>
+	{{ for post in site.posts }}
+		<li><a href="{{ post.url }}"> {{post.title}} </a></li>
+	{{ endfor }}
+    </ul>
+    
+    <h2>About Me</h2>
+  
+  </nav>
+
